@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    <link rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">
+    <script src="https://tikzjax.com/v1/tikzjax.js"></script>
+    <script src="outer.js" defer></script>
+</head>
+
+<body>
+    <div class="header">
+        数学講座第一回練習問題
+        <hr>
+    </div>
+    <div class="main">
+        <p class="section">1⃣：因数分解の演習</p>
+        <div class="contents">
+            <p>　(1),(2),(3)は空欄を埋めましょう。</p>
+            <p>`(1): x^2+2x+1=`<span class="answer">`(x+1)^2`</span></p>
+            <p>`(2): 2x^2-4x+2=`<span class="answer">`2(x-1)^2`</span></p>
+            <p>`(3): x^2+4x+3=`<span class="answer">`(x+3)(x+1)`</span></p>
+            <p>`(4): -2x^2+4x-2=`<span class="answer">`-2(x-1)^2`</span></p>
+            <p>`(5): 3x^2+4x+1=`<span class="answer">`(3x+1)(x+1)`</span></p>
+            <p>`(6): x^2+6x-7=`<span class="answer">`(x+7)(x-1)`</p>
+        </div>
+        <p class="section">2⃣：平方完成の演習</p>
+        <div class="contents">
+            <p>　(1),(2),(3)は空欄を埋めましょう。</p>
+            <p>`(1): x^2-2x+1=`<span class="answer">`(x-1)^2`</span></p>
+            <p>`(2): x^2-2x-3=`<span class="answer">`(x-1)^2-4`</span></p>
+            <p>`(3): x^2+6x+7=`<span class="answer">`(x+3)^2-2`</span></p>
+            <p>`(4): x^2+4x-4=`<span class="answer">`(x+2)^2-8`</span></p>
+            <p>`(5): -x^2+6x+7=`<span class="answer">`-(x-3)^2+16`</span></p>
+            <p>`(6): 3x^2+6x-2=`<span class="answer">`3(x+1)^2-5`</span></p>
+            <p>　</p>
+        </div>
+        <p class="section">3⃣：2次方程式の解を求める問題</p>
+        <div class="contents">
+            <p>　因数分解と平方完成、同値記号⇔を使って解いてみましょう。<br>(1),(2)は空欄を埋めましょう。</p>
+            <p>`(1): x^2+2x-3=0`<span class="answer">`\Leftrightarrow(x+3)(x-1)=0`<br>`\Leftrightarrowx=-3,1.`<br>よって解は `x=-3,1.`</span></p>
+            <p>`(2): x^2+6x-7=0`<span class="answer">`\Leftrightarrow(x+7)(x-1)=0`<br>`\Leftrightarrowx=-7,1.`<br>よって解は `x=-7,1.`</span></p>
+            <p>`(3): x^2+2x-2=0`<br><span class="answer">`\Leftrightarrow(x+1)^2-3=0`<br>`\Leftrightarrow(x+1)^2=3`<br>`\Leftrightarrowx+1=\pm\sqrt{3}`<br>`\Leftrightarrowx=-1\pm\sqrt{3}.`<br>よって解は`x=-1\pm\sqrt{3}.`</span></p>
+            <p>`(4): x^2+6x+4=0`<br><span class="answer">`\Leftrightarrow(x+3)^2-5=0`<br>`\Leftrightarrow(x+3)^2=5`<br>`\Leftrightarrowx=-3\pm\sqrt{5}`<br>よって解は`x=-3\pm\sqrt{5}.`</span></p>
+            <p>`(5): 2x^2+5x+2=0`<br><span class="answer">`\Leftrightarrow(2x+1)(x+2)=0`<br>`\Leftrightarrowx=-\frac{1}{2},-2.`<br>よって解は`x=-\frac{1}{2},-2.`</span></p>
+            <p>`(6): x^2+4x+5=0`<br><span class="answer">`\Leftrightarrow(x+2)^2+1=0`<br>`\Leftrightarrow(x+2)^2=-1.`<br>任意の実数 `x` に関して `(x+2)^2\geq0` である。<br>よって解なし。</span></p>
+        </div>
+        <p class="section">4⃣：解の公式、判別式の利用</p>
+        <div class="contents">
+            <p>　解の公式を使って解いてみましょう。<br>その際判別式を書くのを忘れないようにしましょう。</p>
+            <p>`(1): x^2+2x+1=0`<br><span class="answer">`x^2+2x+1=0` の判別式 `D=2^2-4\times1\times1=0` のため、この方程式の実数解は1つ存在する（重解）。<br>よって2次方程式の解の公式より`x^2+2x+1=0\Leftrightarrowx=\frac{-2\pm\sqrt{2^2-4\times1\times1}}{2\times1}=-1.`<br>よって解は `x=-1.`</span></p>
+            <p>`(2): x^2+6x+7=0`<br><span class="answer">`x^2+6x+7=0` の判別式 `D=6^2-4\times1\times7=8` のため、`D>0` であり、この方程式の異なる実数解は2つ存在する。<br>よって2次方程式の解の公式より`x^2+2x+1=0\Leftrightarrowx=\frac{-6\pm\sqrt{6^2-4\times1\times7}}{2\times1}`<br>`=-3\pm\sqrt{2}.`（復号同順）<br>よって解は `x=-3\pm\sqrt{2}.`</span></p>
+            <p>`(3): 2x^2+5x+2=0`<br><span class="answer">`2x^2+5x+2=0` の判別式 `D=5^2-4\times2\times2=9` のため、`D>0` であり、この方程式の異なる実数解は2つ存在する。<br>よって2次方程式の解の公式より`2x^2+5x+2=0\Leftrightarrowx=\frac{-5\pm\sqrt{5^2-4\times2\times2}}{2\times2}`<br>`=-\frac{1}{2},-1.`<br>よって解は `x=-\frac{1}{2},-1.`</span></p>
+            <p>`(4): x^2+5x+5=0`<br><span class="answer">`x^2+5x+5=0` の判別式 `D=5^2-4\times2\times5=5` のため、`D>0` であり、この方程式の異なる実数解は2つ存在する。<br>よって2次方程式の解の公式より`x^2+5x+5=0\Leftrightarrowx=\frac{-5\pm\sqrt{5^2-4\times1\times5}}{2\times1}`<br>`=\frac{-5\pm\sqrt{5}}{2}.`（復号同順）<br>よって解は `x=\frac{-5\pm\sqrt{5}}{2}.`</span></p>
+            <p>`(5): -2x^2-3x+4=0`<br><span class="answer">`-2x^2-3x+4=0` の判別式 `D=(-3)^2-4\times(-2)\times4=41` のため、`D>0` であり、この方程式の異なる実数解は2つ存在する。<br>よって2次方程式の解の公式より`-2x^2-3x+4=0\Leftrightarrowx=\frac{-(-3)\pm\sqrt{(-3)^2-4\times(-2)\times4}}{2\times(-2)}`<br>`=\frac{-3∓\sqrt{41}}{4}.`（復号同順）<br>よって解は `x=\frac{-3\pm\sqrt{41}}{4}.`</span></p>
+            <p>`(6): x^2+x+2=0`<br><span class="answer">`x^2+x+2=0` の判別式 `D=1^2-4\times1\times2=-7` のため、`D<0` であり、よってこの方程式の実数解は存在しない。</span></p>
+        </div>
+        <p class="section">5⃣：関数のグラフを書く</p>
+        <div class="contents">
+            <p>関数のグラフを書いてみましょう。</p>
+            <p>`(1): y=x^2-1`</p>
+            <script type="text/tikz">
+                \begin{tikzpicture}[scale=1,samples=300] \draw[->,>=stealth,semithick] (-4,0) coordinate (x1_1)--(4,0) coordinate (x1_2) node[right]{\Large $x$}; \draw[->,>=stealth,semithick] (0,-3) coordinate (y1_1)--(0,5) coordinate (y1_2) node[left]{\Large $y$}; \draw
+                (0,0) node[below left]{O}; \coordinate (O1) at (0,0); \fill[black] (O1) circle (3pt); \begin{scope}\clip (-10,-3) rectangle (30,4); \draw[thick] plot(\x,{pow(\x,2)-1}); \fill[red] (-1,0) circle (3pt); \fill[red] (1,0) circle (3pt); \fill[blue]
+                (0,-1) circle (3pt); \draw (-1,0) node[below left]{-1}; \draw (1,0) node[below right]{1}; \draw (0,-1) node[below left]{-1}; \draw (2,3) node[right]{\large $y=x^2$-1}; \end{scope} \end{tikzpicture}
+            </script>
+            <p>`(2): y=2x^2-4x+2`</p>
+            <script type="text/tikz">
+                \begin{tikzpicture}[scale=1,samples=300] \draw[->,>=stealth,semithick] (-4,0) coordinate (x1_1)--(4,0) coordinate (x1_2) node[right]{\Large $x$}; \draw[->,>=stealth,semithick] (0,-3) coordinate (y1_1)--(0,5) coordinate (y1_2) node[left]{\Large $y$}; \draw
+                (0,0) node[below left]{O}; \coordinate (O2) at (0,0); \fill[black] (O2) circle (3pt); \begin{scope}\clip (-10,-3) rectangle (30,4); \draw[thick] plot(\x,{pow(\x-1,2)*2}); \fill[red] (1,0) circle (3pt); \fill[blue] (0,2) circle (3pt); \draw
+                (1,0) node[below right]{1}; \draw (0,2) node[below left]{2}; \draw (3,3) node[right]{\large $y=2x^2$-4$x+2$}; \end{scope} \end{tikzpicture}
+            </script>
+            <p>　<br>　<br>　<br>　<br>　<br>　<br>　<br>　<br>　<br>　</p>
+            <p>`(3): y=-x^2+2x+1`</p>
+            <script type="text/tikz">
+                \begin{tikzpicture}[scale=1,samples=300] \draw[->,>=stealth,semithick] (-4,0) coordinate (x1_1)--(4,0) coordinate (x1_2) node[right]{\Large $x$}; \draw[->,>=stealth,semithick] (0,-3) coordinate (y1_1)--(0,5) coordinate (y1_2) node[left]{\Large $y$}; \coordinate
+                (O1) at (0,0); \draw (0,0) node[below left]{O}; \fill[black] (O1) circle (3pt); \begin{scope}\clip (-10,-3) rectangle (30,4); \draw[thick] plot(\x,{-pow(\x-1,2)+2}); \draw[dashed] (0,2)--(1,2); \draw[dashed] (1,0)--(1,2); \draw (0,2) node[left]{2};
+                \draw (1,0) node[below]{1}; \fill[red] (-0.41,0) circle (3pt); \fill[red] (2.41,0) circle (3pt); \fill[blue] (0,1) circle (3pt); \fill[black] (1,2) circle (2pt); \draw (0,1) node[below left]{1}; \draw (2,3) node[right]{\large $y=$-$x^2+2x+1$};
+                \end{scope} \end{tikzpicture}
+            </script>
+        </div>
+        <p class="section">6⃣：解と係数の関係を扱う</p>
+        <div class="contents">
+            <p>`(1):` 2次方程式 `x^2+ax+b=0` の2解 `\alpha,\beta` に関して、`\alpha+\beta=2,\alpha\beta=-3` でした。<br>`a,b` を求めましょう。<br>
+                <span class="answer">
+                    　解と係数の関係より、`x^2+ax+b=x^2-(\alpha+\beta)x+\alpha\beta=x^2-2x-3.`<br>
+                    よって `a=-2,b=-3.`
+                </span>
+            </p>
+            <p>`(2):` 2次方程式 `x^2-2x-4=0` の2解を `\alpha,\beta` とするとき、次の式の値を求めよ：
+                <p>`(i):(\alpha+1)(\beta+1)`<br>
+                    <span class="answer">
+                        　解と係数の関係より、`\alpha+\beta=2,\alpha\beta=-4.`<br>
+                        よって `(\alpha+1)(\beta+1)=\alpha\beta+(\alpha+\beta)+1=-4+2+1=-1.`
+                    </span></p>
+                <p>`(ii):\alpha^2+\beta^2`<br>
+                    <span class="answer">
+                        　解と係数の関係より、`\alpha+\beta=2,\alpha\beta=-4.`<br>
+                        よって `\alpha^2+\beta^2=(\alpha+\beta)^2-2\alpha\beta=2^2-2\times(-4)=12.`
+                    </span>
+                </p>
+                <p>`(iii):\alpha^3+\beta^3`<br>
+                    <span class="answer">
+                        　解と係数の関係より、`\alpha+\beta=2,\alpha\beta=-4.`<br>
+                        よって `\alpha^3+\beta^3=(\alpha^2-\alpha\beta+\beta^2)(\alpha+\beta)=((\alpha+\beta)^2-3\alpha\beta)(\alpha+\beta)=(2^2-3\times(-4))\times2=32.`
+                    </span>
+                </p>
+                <p>`(iv):\frac{\beta}{\alpha-1}+\frac{\alpha}{\beta-1}`<br>
+                    <span class="answer">
+                        　解と係数の関係より、`\alpha+\beta=2,\alpha\beta=-4.`<br>
+                        よって `(ii)` より `\frac{\beta}{\alpha-1}+\frac{\alpha}{\beta-1}=\frac{\beta(\beta-1)+\alpha(\alpha-1)}{(\alpha-1)(\beta-1)}=\frac{(\alpha^2+\beta^2)-(\alpha+beta)}{\alpha\beta-(\alpha+\beta)+1}=\frac{12-2}{(-4)-2+1}=-2.`
+                    </span>
+                </p>
+
+        </div>
+    </div>
+</body>
+
+</html>
